@@ -55,6 +55,8 @@ switch
 /*
 
 **==============📚Lesson 3: Data Types (Part 1)==================**
+JavaScript-এ Quotes ("" বা '') এর ভিতরে থাকা Text Data-কে String বলে।
+
 // ? Quotes-এর ভিতরে যা থাকবে, JavaScript সেটাকে String হিসেবে গণ্য করবে।
 
  এমনকি যদি সেটা সংখ্যা হয়।
@@ -67,9 +69,10 @@ switch
 
 এগুলো সবই String।
 
-**=======================📚 Lesson 3 (Part 2)====================**
+**=======================📚 Lesson 3.2 (String)====================**
 
 আজ String-এর আরেকটি গুরুত্বপূর্ণ বিষয় শিখব।
+
 
 Single Quote ('') এবং Double Quote ("")
 
@@ -98,33 +101,149 @@ let lastName = 'Abdullah';
 let city = "Mymensingh";
 let country = 'Bangladesh';
 
-🤔 তাহলে দুই ধরনের Quote কেন?
+**=======================📚 Lesson 3.3 (Number)====================**
+📖 Number কী?
 
-এটা খুব গুরুত্বপূর্ণ।
-
-ধরো তুমি লিখতে চাও:
-
-I'm learning JavaScript
-
-যদি এভাবে লেখো:
-
-let text = 'I'm learning JavaScript';
-
-🚨 Error হবে।
-
-কারণ ' (apostrophe) আর String-এর শেষের Quote একে অপরের সাথে সংঘর্ষ করবে।
-
-তখন আমরা লিখি:
-
-let text = "I'm learning JavaScript";
-
-✔️ এবার ঠিক।
-
-আবার যদি String-এর ভিতরে Double Quote দরকার হয়:
-
-let text = 'He said "Hello"';
-
-✔️ এটাও ঠিক।
+Number হলো এমন একটি Data Type যা সংখ্যা (Numeric Value) সংরক্ষণ করে।
 
 
-# test
+🌍 বাস্তব উদাহরণ
+
+ধরো তুমি একটি দোকানে গেলে।
+
+তুমি দেখলে:
+
+দাম = 250 টাকা
+স্টক = 40টি
+বয়স = 20 বছর
+
+এগুলো কি লেখা (Text)?
+
+❌ না।
+
+এগুলো সংখ্যা (Number)।
+
+JavaScript-এ সব ধরনের সংখ্যাকে Number বলা হয়।
+
+
+ // ? আরেকটি উদাহারণ
+ধরো:
+
+তোমার বয়স = 25
+মোবাইলের দাম = 18500
+শরীরের তাপমাত্রা = 36.5
+ব্যাংক ব্যালেন্স = -500 (ধরো ঋণ)
+
+এসবই Number।
+
+⚠️ সবচেয়ে গুরুত্বপূর্ণ নিয়ম
+
+দেখো:
+
+let age = 25;
+
+এখানে 25 হলো Number।
+
+কিন্তু—
+
+let age = "25";
+
+এখানে "25" হলো String।
+
+📌 Quotes থাকলে Number-ও String হয়ে যায়।
+
+এটি JavaScript-এর সবচেয়ে গুরুত্বপূর্ণ নিয়মগুলোর একটি।
+
+📒 JavaScript Mastery Program
+Lesson 4: Number (Revision Note)
+🎯 Number কী?
+
+Number হলো JavaScript-এর একটি Data Type, যা সব ধরনের সংখ্যা সংরক্ষণ করতে ব্যবহৃত হয়।
+
+📌 Number-এর ধরন
+1. Integer (পূর্ণ সংখ্যা)
+
+দশমিক (.) ছাড়া সংখ্যা।
+
+উদাহরণ:
+
+25
+100
+0
+-15
+2. Decimal / Float (দশমিক সংখ্যা)
+
+যে সংখ্যায় দশমিক (.) থাকে।
+
+উদাহরণ:
+
+36.5
+3.14
+0.75
+-10.25
+3. Negative Number (ঋণাত্মক সংখ্যা)
+
+যে সংখ্যার আগে - থাকে।
+
+উদাহরণ:
+
+-5
+-100
+-0.75
+📌 Number vs String
+25
+
+➡️ Number
+
+"25"
+
+➡️ String
+
+36.5
+
+➡️ Number
+
+"36.5"
+
+➡️ String
+
+🧠 মনে রাখার নিয়ম
+
+Quotes ("" বা '') থাকলে → String
+
+Quotes না থাকলে → Number
+
+⚠️ Common Mistakes
+
+❌ ভুল
+
+let age = "25";
+
+যদি বয়স সংখ্যা হিসেবে রাখতে চাও।
+
+✅ সঠিক
+
+let age = 25;
+💡 Tips
+0 একটি Number।
+ঋণাত্মক সংখ্যা (-10) ও Number।
+দশমিক সংখ্যা (36.5) ও Number।
+JavaScript-এ Integer ও Decimal—দুটোই Number।
+📦 Memory Box
+25        → Number
+-10       → Number
+36.5      → Number
+0         → Number
+
+"25"      → String
+"36.5"    → String
+"Hello"   → String
+📝 আজকের Lesson Summary
+✅ Number কী
+✅ Integer
+✅ Decimal (Float)
+✅ Negative Number
+✅ Number ও String-এর পার্থক্য
+✅ Quotes থাকলে Number-ও String হয়ে যায়
+
+

@@ -81,3 +81,27 @@ let myName = "Faridur Rahman";
 let myCity = 'Mymensingh';
 let myHobby = "I'm Learning JavaScript";
 let myPracticeWord = 'He said "Hello"';
+
+
+//🎯 Coding Challenge
+/*
+*একজন কর্মচারীর (Employee) জন্য ৫টি Variable তৈরি করো:
+
+কর্মচারীর নাম
+কর্মচারীর পদ (Job Title)
+কর্মচারীর শহর
+একটি বাক্য: I'm a Web Developer
+একটি বাক্য: My manager said "Excellent"
+*শর্ত
+✔️ camelCase ব্যবহার করবে।
+✔️ যেখানে দরকার সেখানে Single/Double Quote সঠিকভাবে ব্যবহার করবে।
+✔️ প্রতিটি লাইনের শেষে ; থাকবে।
+*/
+
+let employeeName = "Asraful Alam";
+let employeeJob = 'Accounting Director';
+let employeeCity = "Mymensingh";
+let employeeTold = "I'm a Web Developer";
+let managerReview = 'My Manager said "Excellent"';
+
+
