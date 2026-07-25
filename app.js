@@ -105,3 +105,27 @@ let employeeTold = "I'm a Web Developer";
 let managerReview = 'My Manager said "Excellent"';
 
 
+
+//💻 Coding Challenge
+
+//নিচের Variable-গুলো তৈরি করো।
+
+let studentAge = 22
+ let bookPrice = 350
+let temperature = 36.5
+ let bankBalance = -1200
+let examScore = 95
+let discount = 12.5
+
+/*একটি দোকানের তথ্য সংরক্ষণের জন্য নিচের Variable-গুলো নিজে তৈরি করো।
+
+পণ্যের দাম = 850
+স্টকে আছে = 120
+ডিসকাউন্ট = 15.5
+দোকানের ঋণ = -5000
+*/
+let productPrice = 850;
+let productStok = 120;
+let productDiscount = 10.5;
+let shopLoan = -5000;
+
