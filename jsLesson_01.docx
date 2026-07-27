@@ -1,0 +1,121 @@
+📍 আজকের Topic
+
+আমরা শুরু করব:
+
+7-1: Introduction to JavaScript
+
+⚠️ আমাদের নিয়ম অনুযায়ী আজ শুধু 7-1 পড়ব। একই দিনে একাধিক Topic শেষ করব না। প্রতিটি Topic ভালোভাবে বুঝে তারপর পরবর্তী Topic-এ যাব।
+
+📖 Complete Lesson
+7-1: Introduction to JavaScript
+🎯 Lesson Objective
+
+আজকের Lesson শেষে তুমি জানতে পারবে—
+
+JavaScript কী?
+JavaScript কেন শিখব?
+HTML, CSS এবং JavaScript-এর সম্পর্ক
+JavaScript দিয়ে কী কী করা যায়
+Frontend ও Backend-এ JavaScript-এর ব্যবহার
+🌍 JavaScript কী?
+
+JavaScript (JS) হলো একটি Programming Language।
+
+Programming Language এমন একটি ভাষা, যার মাধ্যমে আমরা কম্পিউটারকে নির্দেশ (Instruction) দিই।
+
+যেমন আমরা মানুষের সাথে বাংলা বা ইংরেজিতে কথা বলি, তেমনি কম্পিউটারের সাথে JavaScript-এর মতো Programming Language দিয়ে "কথা বলি"।
+
+🏠 একটি বাস্তব উদাহরণ
+
+ধরো, তুমি একটি বাড়ি বানাচ্ছো।
+
+HTML → বাড়ির কাঠামো (দেয়াল, দরজা, জানালা)
+CSS → বাড়ির রং, ডিজাইন ও সাজসজ্জা
+JavaScript → বাড়ির বিদ্যুৎ, সুইচ, ফ্যান, লাইট, দরজা খুলে-বন্ধ হওয়া
+
+অর্থাৎ—
+
+HTML ছাড়া Structure নেই।
+CSS ছাড়া Design নেই।
+JavaScript ছাড়া Interaction নেই।
+💡 JavaScript দিয়ে কী করা যায়?
+
+JavaScript দিয়ে অনেক ধরনের কাজ করা যায়। যেমন—
+
+Button-এ Click করলে কাজ করানো।
+Form Validate করা।
+Slider বা Image Gallery তৈরি করা।
+Calculator বানানো।
+Quiz App তৈরি করা।
+Game তৈরি করা।
+Web Application তৈরি করা।
+Server-side Application (Node.js) তৈরি করা।
+Mobile App ও Desktop App তৈরির ক্ষেত্রেও JavaScript ব্যবহার করা যায়।
+🌐 Frontend এবং Backend
+Frontend
+
+যা ব্যবহারকারী (User) সরাসরি দেখে এবং ব্যবহার করে।
+
+যেমন—
+
+Button
+Menu
+Form
+Animation
+
+এখানে JavaScript ব্যবহার করে ওয়েবসাইটকে Interactive করা হয়।
+
+Backend
+
+যা ব্যবহারকারী দেখে না, কিন্তু ওয়েবসাইটের ভেতরে কাজ করে।
+
+যেমন—
+
+Database-এর সাথে যোগাযোগ
+Login System
+User Data সংরক্ষণ
+API তৈরি
+
+JavaScript-এর Node.js ব্যবহার করে Backend-ও তৈরি করা যায়।
+
+📌 JavaScript কোথায় লেখা হয়?
+
+JavaScript লেখা যায়—
+
+HTML File-এর <script> Tag-এর ভিতরে।
+আলাদা .js File-এ।
+
+আমরা এই কোর্সে প্রধানত আলাদা .js File ব্যবহার করব।
+
+⚠️ Common Misconceptions
+❌ Java আর JavaScript একই জিনিস
+
+না।
+
+দুটো সম্পূর্ণ আলাদা Programming Language।
+
+শুধু নামের কিছু অংশ মিল আছে।
+
+❌ JavaScript শুধু Browser-এ চলে
+
+এটাও ভুল।
+
+Browser-এর পাশাপাশি Node.js ব্যবহার করে কম্পিউটার বা Server-এও JavaScript চালানো যায়।
+
+💡 গুরুত্বপূর্ণ Tips
+JavaScript Case-Sensitive।
+myName এবং myname এক নয়।
+JavaScript শিখতে হলে নিয়মিত Coding Practice করতে হবে।
+শুধু পড়ে নয়, লিখে শিখতে হবে।
+📝 Lesson Summary
+
+আজ আমরা শিখলাম—
+
+JavaScript কী
+Programming Language কী
+HTML, CSS ও JavaScript-এর সম্পর্ক
+JavaScript দিয়ে কী কী করা যায়
+Frontend ও Backend-এ JavaScript-এর ব্যবহার
+Java এবং JavaScript এক নয়
+Browser এবং Node.js—দুই জায়গাতেই JavaScript ব্যবহার করা যায়
+❓ আজকের Lesson এখানেই শেষ।
